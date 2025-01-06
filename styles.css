@@ -1,0 +1,37 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #002366; /* Dark blue background */
+    color: white; /* White text for contrast */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #000080; /* Navy blue */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.container {
+    padding: 20px;
+}
+
+h2 {
+    color: #ffcc00; /* Bright yellow */
+}
+
+ul {
+    list-style-type: square;
+}
+
+.fidget-photo {
+    width: 90px; /* Small image size */
+    height: auto;
+}
+
+.fidgetland-icon {
+    width: 800px; /* Large image size */
+    height: auto;
+}
