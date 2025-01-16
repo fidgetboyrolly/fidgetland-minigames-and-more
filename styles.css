@@ -39,3 +39,14 @@ ul {
 h2 {
     color: #ffcc00;
 }
+{ @media (max-width: 768px) {
+    body { 
+     font-family: Arial, sans-serif;
+    background-color: #002366; /* Dark blue background */
+    color: white; /* White text for contrast */
+    margin: 100;
+    padding: 0;
+    border; 100;
+    }
+    .fidgetland-icon {
+        width: 768px
