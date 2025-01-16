@@ -5,7 +5,7 @@ body {
     color: white; /* White text for contrast */
     margin: 100;
     padding: 0;
-    border; 100;
+    border: 20px solid #4CAF50
 }
 
 header {
@@ -46,7 +46,7 @@ h2 {
     color: white; /* White text for contrast */
     margin: 100;
     padding: 0;
-    border; 100;
+    border: 20px; solid #4CAF50
     }
     .fidgetland-icon {
         width: 768px
