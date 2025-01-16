@@ -55,6 +55,10 @@ font-family: Arial, sans-serif;
         width: 300x;
         hight: auto;
 }
+    .fidget-photo {
+    width: 90px; /* Small image size */
+    height: auto;
+}
 }
 html {
     border: 10px; solid #4CAF50
