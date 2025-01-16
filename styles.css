@@ -5,7 +5,6 @@ body {
     color: white; /* White text for contrast */
     margin: 100;
     padding: 0;
-    border: 20px solid #4CAF50
 }
 
 header {
@@ -40,6 +39,8 @@ h2 {
     color: #ffcc00;
 }
 { @media (max-width: 768px) {
+    html {
+        border: 10px solid #4CAF50
     p { 
         font-size: 10px;
     }
@@ -49,10 +50,11 @@ font-family: Arial, sans-serif;
     color: white; /* White text for contrast */
     margin: 100;
     padding: 0;
-    border: 20px; solid #4CAF50
     }
     .fidgetland-icon {
-        width: 700px
+        width: 400px
         hight: auto
 }
 }
+html {
+    border: 10px; solid #4CAF50
