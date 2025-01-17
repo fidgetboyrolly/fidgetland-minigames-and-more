@@ -4,6 +4,7 @@ body {
     background-color: #002366; /* Dark blue background */
     color: white; /* White text for contrast */
     margin: 100;
+    font-size: 50px;
     padding: 0;
 }
 
@@ -27,7 +28,7 @@ ul {
 }
 
 .fidget-photo {
-    width: 90px; /* Small image size */
+    width:100px; /* Small image size */
     height: auto;
 }
 
