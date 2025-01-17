@@ -52,11 +52,11 @@ font-family: Arial, sans-serif;
     padding: 0;
     }
     .fidgetland-icon {
-        width: 200x;
+        width: 200px;
         hight: auto;
 }
     .fidget-photo {
-    width: 90px; /* Small image size */
+    width: 150px; /* Small image size */
     height: auto;
 }
 }
