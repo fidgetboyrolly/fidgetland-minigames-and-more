@@ -6,6 +6,7 @@ body {
     margin: 100;
     font-size: 50px;
     padding: 0;
+    border: 10px; solid; #4CAF50;
 }
 
 header {
@@ -47,6 +48,7 @@ h2 {
         font-size: 50px;
     }
     body { 
+        border: 10px; solid; #4CAF50;
 font-family: Arial, sans-serif;
     background-color: #002366; /* Dark blue background */
     color: white; /* White text for contrast */
@@ -62,6 +64,4 @@ font-family: Arial, sans-serif;
     height: auto;
 }
 }
-html {
-    border: 10px; solid #4CAF50
-}
+
