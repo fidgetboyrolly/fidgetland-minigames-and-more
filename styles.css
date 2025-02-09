@@ -44,9 +44,6 @@ h2 {
     html {
         border: 10px; solid; #4CAF50;
     }
-    p { 
-        font-size: 50px;
-    }
     body { 
         border: 10px; solid; #4CAF50;
 font-family: Arial, sans-serif;
@@ -54,7 +51,7 @@ font-family: Arial, sans-serif;
     color: white; /* White text for contrast */
     margin: 100;
     padding: 0;
-    font-size: 30px;
+    font-size: 50px;
     }
     .fidgetland-icon {
         width: 100%;
