@@ -5,6 +5,7 @@ body {
     margin: 100;
     font-size: 20px;
     padding: 0;
+    background-size: cover;
     border: 10px; solid; color:#4CAF50;
     background: linear-gradient(to bottom, #002366, #1D2E96);
 
