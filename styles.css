@@ -7,6 +7,8 @@ body {
     padding: 0;
     background-size: cover;
     border: 10px; solid; color:#4CAF50;
+    background-size: cover;
+    background-position: center;
     background: linear-gradient(to bottom, #002366, #1D2E96)no repeat,;
 
 }
