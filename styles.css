@@ -15,8 +15,8 @@ body {
     border: 10px solid #4CAF50;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content: top;
+    align-items: left;
     min-height: 100vh; /* Ensure full height coverage */
 }
 
