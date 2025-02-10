@@ -15,8 +15,6 @@ body {
     border: 10px solid #4CAF50;
     display: flex;
     flex-direction: column;
-    justify-content: top;
-    align-items: left;
     min-height: 100vh; /* Ensure full height coverage */
 }
 
@@ -24,11 +22,20 @@ header {
     color: white;
     padding: 20px 0;
     text-align: center;
+    position: sticky;
+    top: 0; /* Ensure header stays at the top */
+    background-color: rgba(0, 35, 102, 0.8); /* Optional background color for header */
+    width: 100%; /* Full width */
+    z-index: 1000; /* Ensure header is on top */
 }
 
 .container {
     padding: 20px;
     flex: 1; /* Allow container to grow and fill the available space */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 h1 {
