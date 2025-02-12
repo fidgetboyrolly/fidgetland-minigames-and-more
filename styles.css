@@ -14,7 +14,7 @@ body {
     border: 20px solid #4CAF50;
     display: flex;
     flex-direction: column;
-    min-height: 100%; /* Ensure full height coverage */
+    min-height: 120%; /* Ensure full height coverage */
     justify-content: flex-start; /* Align content to the top */
 }
 
