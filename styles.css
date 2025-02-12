@@ -70,7 +70,6 @@ h2 {
         border: 10px solid #4CAF50;
         font-family: Arial, sans-serif;
         color: white; /* White text for contrast */
-        font-size: 20px; /* Adjusted font-size */
         background-size: cover;
         display: flex;
         flex-direction: column;
