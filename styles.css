@@ -3,6 +3,7 @@ html, body {
     height: 100%;
     margin: 0;
     padding: 0;
+    border: 10px solid #4CAF50;
 }
 
 body {
@@ -67,7 +68,6 @@ h2 {
         border: 10px solid #4CAF50;
     }
     body { 
-        border: 10px solid #4CAF50;
         font-family: Arial, sans-serif;
         color: white; /* White text for contrast */
         background-size: cover;
