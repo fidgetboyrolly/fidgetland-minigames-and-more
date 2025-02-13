@@ -1,20 +1,20 @@
-
 html, body {
     height: 100%;
     margin: 0;
     padding: 0;
     border: 10px solid #4CAF50;
+    box-sizing: border-box; /* Ensure padding and border are included in the element's total width and height */
 }
 
 body {
     font-family: Arial, sans-serif;
     color: white; /* White text for contrast */
     background: linear-gradient(to bottom, #002366, #1D2E96) no-repeat;
-    background-size: all;
+    background-size: cover; /* Cover the entire background */
     background-position: center;
     display: flex;
     flex-direction: column;
-    min-height: 130; /* Ensure full height coverage */
+    min-height: 100%; /* Ensure full height coverage */
     justify-content: flex-start; /* Align content to the top */
 }
 
@@ -69,7 +69,7 @@ h2 {
     body { 
         font-family: Arial, sans-serif;
         color: white; /* White text for contrast */
-        background-size: cover;
+        background-size: cover; /* Cover the entire background */
         display: flex;
         flex-direction: column;
     }
@@ -84,9 +84,10 @@ h2 {
         height: auto;
     }
     p {
-        font-size:30;
+        font-size: 30px;
     }
     h1 {
-        font-size:50;
+        font-size: 50px;
     }
 }
+
