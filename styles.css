@@ -14,7 +14,6 @@ body {
     background-position: center;
     display: flex;
     flex-direction: column;
-    min-height: 150%; /* Ensure full viewport height coverage */
     justify-content: flex-start; /* Align content to the top */
 }
 
@@ -24,7 +23,6 @@ header {
     text-align: center;
     position: sticky;
     top: 0; /* Ensure header stays at the top */
-    background-color: rgba(0, 35, 102, 0.8); /* Optional background color for header */
     width: 100%; /* Full width */
     z-index: 1000; /* Ensure header is on top */
 }
