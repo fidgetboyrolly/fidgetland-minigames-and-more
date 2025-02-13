@@ -2,7 +2,6 @@ html, body {
     height: 100%;
     margin: 0;
     padding: 0;
-    border: 5px solid #4CAF50;
     box-sizing: border-box; /* Include padding and border in the element's total width and height */
 }
 
@@ -10,13 +9,25 @@ body {
     font-family: Arial, sans-serif;
     color: white; /* White text for contrast */
     background: linear-gradient(to bottom, #002366, #1D2E96) no-repeat;
-    background-size: max; /* Cover the entire background */
+    background-size: cover; /* Cover the entire background */
     background-position: center;
     background-attachment: fixed; /* Create an infinite scrolling background */
     display: flex;
     flex-direction: column;
-    min-height: 150hv; /* Ensure full viewport height coverage */
+    min-height: 100vh; /* Ensure full viewport height coverage */
     justify-content: flex-start; /* Align content to the top */
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border: 10px solid #4CAF50;
+    pointer-events: none; /* Ensure the border does not interfere with user interactions */
+    box-sizing: border-box;
 }
 
 header {
@@ -66,7 +77,7 @@ h2 {
 
 @media (max-width: 768px) {
     html {
-        border: 10px solid #4CAF50;
+        border: none;
     }
     body { 
         font-family: Arial, sans-serif;
