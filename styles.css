@@ -14,6 +14,94 @@ body {
     background-position: center;
     display: flex;
     flex-direction: column;
+    min-height: 150%; /* Ensure full viewport height coverage */
+    justify-content: flex-start; /* Align content to the top */
+}
+
+header {
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    position: sticky;
+    top: 0; /* Ensure header stays at the top */
+    background-color: rgba(0, 35, 102, 0.8); /* Optional background color for header */
+    width: 100%; /* Full width */
+    z-index: 1000; /* Ensure header is on top */
+}
+
+.container {
+    padding: 20px;
+    flex: 1; /* Allow container to grow and fill the available space */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    color: #ffcc00; /* Bright yellow */
+}
+
+ul {
+    list-style-type: square;
+}
+
+.fidget-photo {
+    width: 100px; /* Small image size */
+    height: auto;
+}
+
+.fidgetland-icon {
+    width: 100%;
+    height: auto;
+    position: relative;
+    top: 0; /* Ensure icon stays at the top */
+}
+
+h2 {
+    color: #ffcc00;
+}
+
+@media (max-width: 768px) {
+    html {
+        border: 10px solid #4CAF50;
+    }
+    body { 
+        font-family: Arial, sans-serif;
+        color: white; /* White text for contrast */
+        background-size: cover; /* Cover the entire background */
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh; /* Ensure full viewport height coverage */
+    }
+    .fidgetland-icon {
+        width: 100%;
+        height: auto;
+        position: relative;
+        top: 0;
+    }
+    .fidget-photo {
+        width: 250px; /* Adjusted image size for mobile */
+        height: auto;
+    }
+    p {
+        font-size: 30px;
+    }
+    h1 {
+        font-size: 50px;
+    }
+}
+
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: white; /* White text for contrast */
+    background: linear-gradient(to bottom, #002366, #1D2E96) no-repeat;
+    background-size: cover; /* Cover the entire background */
+    background-position: center;
+    display: flex;
+    flex-direction: column;
     min-height: 100vh; /* Ensure full viewport height coverage */
     justify-content: flex-start; /* Align content to the top */
 }
