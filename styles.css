@@ -3,7 +3,7 @@ html, body {
     margin: 0;
     padding: 0;
     border: 10px solid #4CAF50;
-    box-sizing: border-box; /* Ensure padding and border are included in the element's total width and height */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
 }
 
 body {
@@ -14,7 +14,7 @@ body {
     background-position: center;
     display: flex;
     flex-direction: column;
-    min-height: 100%; /* Ensure full height coverage */
+    min-height: 100vh; /* Ensure full viewport height coverage */
     justify-content: flex-start; /* Align content to the top */
 }
 
@@ -72,6 +72,7 @@ h2 {
         background-size: cover; /* Cover the entire background */
         display: flex;
         flex-direction: column;
+        min-height: 100vh; /* Ensure full viewport height coverage */
     }
     .fidgetland-icon {
         width: 100%;
