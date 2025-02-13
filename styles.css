@@ -2,7 +2,7 @@ html, body {
     height: 100%;
     margin: 0;
     padding: 0;
-    border: 10px solid #4CAF50;
+    border: 5px solid #4CAF50;
     box-sizing: border-box; /* Include padding and border in the element's total width and height */
 }
 
@@ -12,11 +12,11 @@ body {
     background: linear-gradient(to bottom, #002366, #1D2E96) no-repeat;
     background-size: cover; /* Cover the entire background */
     background-position: center;
+    background-attachment: fixed; /* Create an infinite scrolling background */
     display: flex;
     flex-direction: column;
     min-height: 100vh; /* Ensure full viewport height coverage */
     justify-content: flex-start; /* Align content to the top */
-    box-sizing: border-box; /* Include padding and border in the element's total width and height */
 }
 
 header {
@@ -93,3 +93,4 @@ h2 {
         font-size: 50px;
     }
 }
+
