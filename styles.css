@@ -15,7 +15,10 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh; /* Ensure full viewport height coverage */
-    justify-content: flex-start; /* Align content to the top */
+    justify-content: flex-start; /* Align content to the top */``
+}
+p {
+    size: 25px;
 }
 
 body::before {
