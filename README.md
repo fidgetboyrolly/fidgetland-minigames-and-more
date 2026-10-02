@@ -1,4 +1,2 @@
 # fidgetland minigames and more
-pls do not edit
-
-this is for an minecraft server 
+this was a website for a minecraft server that has been discontinued due to unpopularity
